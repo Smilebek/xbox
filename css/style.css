@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    background-color: black;
+
+}
+
+body ::before {
+    content: "";
+    width: 873px;
+    height: 757px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/sony.png");
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box {
+    padding-top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 278px;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.box-link {
+    padding: 10px 58px;
+    border-radius: 10px;
+    background: #08AD2C;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box-tittle {
+    width: 661px;
+    height: 183px;
+    color: #FFF;
+    margin: 0 auto;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.text {
+    display: flex;
+    width: 420px;
+    height: 51px;
+    color: #B5B5B5;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto
+}
